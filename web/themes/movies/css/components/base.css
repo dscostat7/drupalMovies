@@ -1,0 +1,150 @@
+table tr th, td {
+    padding-left: 1rem;
+}
+
+html, body {
+    background-color: #add8e6 !important;
+}
+
+#search-block-form #edit-keys {
+    border-radius: 20px;
+    border: transparent;
+    padding: 5px 10px;
+}
+
+#search-block-form #edit-submit {
+    display: none;
+}
+
+#link_movie {
+    color: #000;
+    text-decoration: none;
+}
+
+.list-group-item a {
+    color: #000;
+    text-decoration: none;
+}
+
+.list-group-item a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+#banner_movie {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+#banner_movie img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 30px;
+}
+
+#banner_movie a {
+    text-decoration: none;
+    color: #000;
+}
+
+#banner_movie a:hover {
+    text-decoration: underline;
+}
+
+#block-footer .clearfix {
+    display: flex;
+}
+
+#block-footer .clearfix .logo {
+    width: 50%;
+}
+
+#block-movies-page-title {
+    font-family: fantasy;
+}
+
+#perfil_ator {
+    text-align: -webkit-center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+#perfil_ator img {
+    border-radius: 20px;
+    width: 25%;
+}
+
+#perfil_ator .w-50 {
+    width: 100% !important;
+}
+
+#img_ator {
+    object-fit: cover;
+    height: 400px;
+    transition: transform .2s;
+}
+
+#img_ator:hover {
+    transform: scale(1.1);
+}
+
+#lista_atores {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+#lista_atores .card {
+    border: none;
+}
+
+#lista_atores a {
+    text-decoration: none;
+    color: #000;
+}
+
+#lista_atores a:hover {
+    text-decoration: underline;
+}
+
+#link_movie img {
+    transition: transform .2s;
+}
+
+#link_movie img:hover {
+    transform: scale(1.1); 
+}
+
+#footer {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+#footer .link {
+    margin-top: 5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#footer #contato li {
+    padding: 5px;
+}
+
+#footer #contato a {
+    text-decoration: none;
+}
+
+#footer #contato a svg {
+    transition: transform .4s;
+}
+
+#footer #contato a svg:hover {
+    transform: scale(1.5); 
+}
+
+#footer #contato li::marker {
+    content: '';
+}

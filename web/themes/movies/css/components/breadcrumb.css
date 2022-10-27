@@ -1,0 +1,37 @@
+/**
+ * @file
+ * Styles for breadcrumbs.
+ */
+
+.breadcrumb {
+  padding-bottom: 0.5em;
+  font-family: sans-serif;
+
+  border: 2px solid #fff;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 5px 10px !important;
+  width: auto;
+  max-width: 30%;
+}
+.breadcrumb ol {
+  margin: 0;
+  padding: 0;
+}
+[dir="rtl"] .breadcrumb ol {
+  /* This is required to win over specificity of [dir="rtl"] ol */
+  margin-right: 0;
+}
+.breadcrumb li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* IE8 does not support :not() and :last-child. */
+.breadcrumb li:before {
+  content: url(../../images/icons/right-arrow.svg);
+}
+.breadcrumb li:first-child:before {
+  content: none;
+}

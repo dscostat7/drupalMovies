@@ -1,0 +1,22 @@
+name: movies
+type: theme
+'base theme': stable9
+starterkit: true
+version: VERSION
+libraries:
+  - movies/base
+  - movies/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - movies/user
+  core/drupal.dropbutton:
+    - movies/dropbutton
+  core/drupal.dialog:
+    - movies/dialog
+  file/drupal.file:
+    - movies/file
+  core/drupal.progress:
+    - movies/progress
+core_version_requirement: ^9
+generator: 'starterkit_theme:9.4.8'
