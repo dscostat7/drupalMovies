@@ -9,6 +9,7 @@
   <img alt="License" src="https://img.shields.io/badge/Drupal-purple">
   <img alt="License" src="https://img.shields.io/badge/SQLite-blue">
   <img alt="License" src="https://img.shields.io/badge/HTML-orange">
+  <img alt="License" src="https://img.shields.io/badge/Bootstrap-blue">
   <img alt="License" src="https://img.shields.io/badge/CSS-blue">
 
   <a href="https://beacons.ai/dscostat7/" target="_blank">
