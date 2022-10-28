@@ -37,6 +37,7 @@ a passo de como clonar e rodar localmente a mesma aplicação!
 - HTML
 - CSS
 - Bootstrap
+- SQLite
 
 ## 🚧 Módulos instalados e comandos utilizados
 
