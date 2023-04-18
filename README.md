@@ -42,7 +42,7 @@ a passo de como clonar e rodar localmente a mesma aplicação!
 
 ## 🚧 Módulos instalados e comandos utilizados
 
-- Breadcumb,com o comando `composer require 'drupal/easy_breadcrumb:^2.0'`
+- Breadcumb, com o comando `composer require 'drupal/easy_breadcrumb:^2.0'`
 - Gerando tema padrão `php core/scripts/drupal generate-theme movies`
 
 ## 💻 Passo a passo para rodar local
